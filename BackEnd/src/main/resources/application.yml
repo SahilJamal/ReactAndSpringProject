@@ -1,0 +1,15 @@
+server:
+  port: 9192
+
+spring:
+  datasource:
+    username: sahil
+    password: sahil@sahil
+    url: jdbc:mysql://localhost:3306/reactAndSpring
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        ddl-auto: update
+        format_sql: true
